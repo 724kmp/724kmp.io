@@ -26,91 +26,90 @@
 </head>
 <body>
 
-<!--NavBar-->
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-------------------------------------NavBar--------------------------------------------------->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Simulate a smartphone / tablet look -->
-<div class="mobile-container">
+    <!-- Simulate a smartphone / tablet look -->
+    <div class="mobile-container">
 
-    <!-- Top Navigation Menu -->
-    <div class="topnav sticky-top">
-        <a class="navbar-brand" href="#">
-            <img src="IMG/kp_logo_blue.png" width="160" height="30" alt="kp_logo_blue">
-          </a>
-      <div id="myLinks">
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
+        <!-- Top Navigation Menu -->
+        <div class="topnav sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="IMG/kp_logo_blue.png" width="160" height="30" alt="kp_logo_blue">
+            </a>
+        <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
 
-<script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+        </script>
 
-
-<!--New carousel-->
+<!-----------------------------------------New carousel----------------------------------------------------------->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div class="carousel-item active">
             <img class="d-block w-100" src="IMG/coding.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
+        </div>
+        <div class="carousel-item">
             <img class="d-block w-100" src="IMG/coding2.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
+        </div>
+        <div class="carousel-item">
             <img class="d-block w-100" src="IMG/coding3.jpg" alt="Third slide">
-          </div>
         </div>
-      </div>
+        </div>
+    </div>
 
-<!--Footer-->
-<div class="footer-dark">
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>FIX ME</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">SOMETHING HERE</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+<!------------------------------------------------------------Footer------------------------------------------------->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>FIX ME</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">SOMETHING HERE</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Write something here</h3>
+                        <ul>
+                            <li><a href="#">Resume</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">and here</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Kiana Parsons</h3>
+                        <p>Write a little something about yourself here.</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Write something here</h3>
-                    <ul>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">and here</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 item text">
-                    <h3>Kiana Parsons</h3>
-                    <p>Write a little something about yourself here.</p>
-                </div>
-                <div class="col item social">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-envelope"></i></a>
-                </div>
+                <p class="copyright">Company Name © 2018</p>
             </div>
-            <p class="copyright">Company Name © 2018</p>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
