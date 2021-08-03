@@ -93,3 +93,38 @@
   margin-bottom:0;
 }
 
+/*-----------------------------------NAVBAR---------------------------------------------------*/
+body {
+  font-family: /*add font*/;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #282D32;
+  position: sticky;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: #f0f9ff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  opacity:0.9;
+}
+
+.active {
+  background-color: #0FC2E6;
+  color: white;
+}

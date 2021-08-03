@@ -26,6 +26,38 @@
 </head>
 <body>
 
+<!--NavBar-->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="IMG/kp_logo_blue.png" width="160" height="30" alt="kp_logo_blue">
+          </a>
+      <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 
 
 <!--New carousel-->
