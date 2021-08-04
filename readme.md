@@ -1,5 +1,6 @@
 # Mobile Friendly Websites Class Final
 
+Resume and Info 
 
 ---
 ## Contributors
