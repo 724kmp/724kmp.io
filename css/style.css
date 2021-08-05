@@ -4,9 +4,10 @@ body{
   text-overflow: none;
 }
 
-#img-thumbnail {
-  height: 200px;
+.img-thumbnail {
+  height: 240px;
   width: 200px;
+  float: left;
 }
 
 /*-----------------------------------------------------------------------------
