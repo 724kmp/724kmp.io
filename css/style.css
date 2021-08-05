@@ -4,6 +4,11 @@ body{
   text-overflow: none;
 }
 
+#img-thumbnail {
+  height: 200px;
+  width: 200px;
+}
+
 /*-----------------------------------------------------------------------------
  * Footer
  *-----------------------------------------------------------------------------*/
@@ -99,7 +104,8 @@ body{
 
 /*-----------------------------------NAVBAR---------------------------------------------------*/
 body {
-  font-family: /*add font*/;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Roboto', sans-serif; 
 }
 
 .topnav {
